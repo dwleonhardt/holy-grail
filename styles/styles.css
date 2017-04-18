@@ -1,0 +1,29 @@
+.grail {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0px;
+}
+.grail-header {
+  background-color: brown;
+}
+.grail-body {
+  display: flex;
+  flex: 1;
+}
+.grail-content {
+  flex: 1;
+}
+.grail-nav, .grail-aside {
+  flex: 0 0 12em;
+}
+.grail-nav {
+  order: -1;
+  background-color: grey;
+}
+.grail-aside {
+  background-color: grey;
+}
+.grail-footer {
+  background-color: brown;
+}
